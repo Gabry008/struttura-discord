@@ -14,6 +14,10 @@ header{
     height: 250px;
 }
 
+.gap{
+    gap: 15px;
+}
+
 nav{
     background-color: red;
     margin: 0 300px;
@@ -21,19 +25,57 @@ nav{
     width: 100%;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .justify-center{
     justify-content: center;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .padding{
     padding: 30px 60px;
 }
 
+.padding2{
+    padding: 10px 0px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
 .justify-between{
     justify-content: space-between;
 }
 
-.bg-black{
+.bg-white{
     background-color: rgb(255, 255, 255);
 }
 
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.misure-div{
+    margin: 0 200px;
+    height: 150px;
+    width: 100%;
+}
+
+.block2{
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+
+.column{
+    align-items: column;
+}
