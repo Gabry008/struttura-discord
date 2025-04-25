@@ -38,6 +38,10 @@ ul, li {
     flex-direction: column;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
+
 .justify-center {
     justify-content: center;
 }
