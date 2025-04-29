@@ -15,8 +15,16 @@ ul, li {
     max-width: 1200px;
 }
 
+.text.align{
+    text-align: left;
+}
+
 .margin{
-    margin: 0 500px;
+    max-width: 25%;
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
 }
 
 /* Padding  */
