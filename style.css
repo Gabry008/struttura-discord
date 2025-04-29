@@ -42,6 +42,11 @@ ul, li {
     width: calc((100% / 12) * 7);
 }
 
+.button{
+    background-color: rgb(66, 66, 255);
+    border-radius: 10px;
+    padding: 5px 3px;
+}
 /* Padding  */
 .gap-1{
     gap: 2rem;
@@ -88,7 +93,10 @@ ul, li {
 .reverse{
     flex-direction: row-reverse;
 }
-
+/* text color*/
+.text-white{
+    color: white;
+}
 /* Backgrounds */
 .bg-white{
     background-color: rgb(255, 255, 255);
@@ -112,6 +120,14 @@ ul, li {
 
 .bg-gray{
     background-color: lightgray;
+}
+
+.bg-header{
+    background-image: url(./img/jumbo.png) ;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    
 }
 
 /* Lascia stare */
