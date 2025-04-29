@@ -20,7 +20,7 @@ ul, li {
 }
 
 .margin{
-    max-width: 25%;
+    max-width: 350px;
 }
 
 .col-6 {
@@ -28,6 +28,10 @@ ul, li {
 }
 
 /* Padding  */
+.gap-1{
+    gap: 2rem;
+}
+
 .p-2{
     padding: 2rem;
 }
