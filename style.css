@@ -15,16 +15,28 @@ ul, li {
     max-width: 1200px;
 }
 
+.height{
+    height: 100px;
+}
+
 .text.align{
     text-align: left;
 }
 
 .margin{
-    max-width: 350px;
+    margin: 20px 0px;
 }
 
 .col-6 {
     width: calc((100% / 12) * 6);
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
 }
 
 /* Padding  */
@@ -71,6 +83,10 @@ ul, li {
     justify-content: space-between;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
 /* Backgrounds */
 .bg-white{
     background-color: rgb(255, 255, 255);
@@ -82,6 +98,10 @@ ul, li {
 
 .bg-red{
     background-color: red;
+}
+
+.bg-blu{
+    background-color: blue;
 }
 
 /* Lascia stare */
