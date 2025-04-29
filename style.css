@@ -27,12 +27,15 @@ ul, li {
     margin: 20px 0px;
 }
 
-.col-6 {
-    width: calc((100% / 12) * 6);
+.col-2 {
+    width: calc((100% / 12) * 2);
 }
-
 .col-5 {
     width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
 }
 
 .col-7 {
@@ -62,7 +65,6 @@ ul, li {
 }
 
 .flex-column {
-    display: flex;
     flex-direction: column;
 }
 
@@ -90,6 +92,10 @@ ul, li {
 /* Backgrounds */
 .bg-white{
     background-color: rgb(255, 255, 255);
+}
+
+.bg-black{
+    background-color: black;
 }
 
 .bg-yellow{
