@@ -9,12 +9,13 @@ ul, li {
     list-style: none;
 }
 
+
+
 /* Utility */
 .container {
     margin: 0 auto;
     max-width: 1200px;
 }
-
 
 .height{
     height: 100px;
@@ -24,8 +25,16 @@ ul, li {
     text-align: left;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .margin{
     margin: 20px 0px;
+}
+
+.col-1 {
+    width: calc((100% / 12) * 1);
 }
 
 .col-2 {
@@ -55,9 +64,22 @@ ul, li {
     text-align: center;
 
 }
+
+.button-blue{
+    background-color: rgb(102, 59, 255);
+    border-radius: 15px;
+    padding: 5px 4px;
+    text-align: center;
+
+}
+
 /* Padding  */
 .gap-1{
     gap: 2rem;
+}
+
+.gap-2{
+    gap: 4rem;
 }
 
 .p-2{
